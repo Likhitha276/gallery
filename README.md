@@ -12,7 +12,7 @@ Python 3.11+
 Virtual environment tools (e.g., venv, pipenv)
 An OpenAI API key
 
-Gallery and Chat Application
+Gallery and Chat Application:
 This is a FastAPI-based web application that integrates a gallery display with a chatbot powered by OpenAI's API. The application allows users to explore an art gallery and interact with a chatbot for personalized responses.
 
 Features
