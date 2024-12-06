@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery and Chat</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <div class="gallery">
+        <img src="/static/painting.jpg" alt="Gallery Image">
+        <div>
+            <h2>MIAMI BEACH</h2>
+            <p>Original on Canvas</p>
+            <p>Size: 5' x 8'</p>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>BOT</h1>
+        </header>
+
+        <main class="chat-log" id="chat-log">
+            <!-- Chat messages will be dynamically added here -->
+        </main>
+
+        <footer class="chat-footer">
+            <textarea id="user-input" placeholder="Type a message here..." rows="1"></textarea>
+            <button id="send-button">Send</button>
+        </footer>
+    </div>
+</body>
+</html>
